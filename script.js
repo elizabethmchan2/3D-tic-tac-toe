@@ -49,7 +49,7 @@ function hasWon() {
         }
         if (p2row == 3 || p2col == 3 || board[0][0]+board[1][1]+board[2][2] == -3||board[0][2]+board[1][1]+board[2][0] == -3) {
             console.log("p2 win")
-            document.getElementById('winner').setAttribute("text", "value: Player 1 wins!; color:black")
+            document.getElementById('winner').setAttribute("text", "value: Player 2 wins!; color:black")
             setTimeout(resetBoard,5000)
             
         }
